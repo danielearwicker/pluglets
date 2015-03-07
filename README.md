@@ -1,3 +1,3 @@
 # pluglets
 
-Absurdly minimal pluggable component pattern.
+Categorised plugins for large-scale applications.

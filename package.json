@@ -1,6 +1,6 @@
 {
   "name": "pluglets",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Categorised plugins for large-scale applications",
   "main": "index.js",
   "scripts": {

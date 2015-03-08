@@ -2,7 +2,11 @@
 declare module Pluglets {
 
     interface Kind<T> {
-        [id: string]: T;
+        add(id: string, p: T): void;
+        all(): T[];
+        byId: {
+            [id: string]: T;
+        };
     }
 
     interface Kinds {
@@ -10,7 +14,7 @@ declare module Pluglets {
     }
 }
 
-declare module "pluglets" {    
+declare module "pluglets" {
     var instance: Pluglets.Kinds;
     export = instance;
 }
